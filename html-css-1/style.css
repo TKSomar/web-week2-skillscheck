@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Primary Navigation Menu */
+
+.primary-nav {
+    background-color: grey;
+    overflow: hidden;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-right {
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.primary-nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-menu-link {
+    padding: 15px;
+}
+
+.header-logo-text {
+    font-size: 32px;
+    color: white;
+    padding: 10px;
+}
+
+/* Banner */
+
+.banner-container {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+
+.banner-text {
+    color: rgb(154, 156, 47);
+    text-align: center;
+    padding: 50px;
+    font-size: 54px;
+}
+
+/* Blue Box Section */
+
+.blue-section {
+    width: 100%;
+}
+
+.blue-boxes-container {
+    height: 350px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blue-box {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(162, 221, 255);
+    border-radius: 15px;
+}
+
+/* Yello Box Section */
+
+.yellow-section {
+    height: 400px;
+    width: 100%;
+}
+
+.yellow-boxes-container {
+    height: 350px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.yellow-box {
+    height: 250px;
+    width: 33%;
+    background-color: rgb(252, 219, 71);
+}
+
+/* Image and Text Section */
+
+.image-and-text-section {
+    width: 100%;
+    height: 400px;
+}
+
+.image-text-section-container {
+    height: 350px;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    width: 50%;
+    padding: 10px;
+}
+
+.text-content {
+    width: 65%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.image-container {
+    width: 50%;
+    text-align: center;
+}
+
+.elephant-img {
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Footer */
+
+.footer-bar {
+    height: 85px;
+    width: 100%;
+    background-color: rgb(39, 30, 85);
+}
